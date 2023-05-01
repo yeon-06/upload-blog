@@ -34,7 +34,8 @@ javafx {
 }
 
 dependencies {
-
+    implementation 'org.twitter4j:twitter4j-core:4.0.7'
+    implementation 'org.jsoup:jsoup:1.15.3'
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
 }
